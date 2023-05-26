@@ -13,8 +13,8 @@ let f1 x =
 // Verbose syntax
 let f2 x =
     let a = 1 in
-    let b = 2 in
-    x + a + b
+        let b = 2 in
+            x + a + b
 
 // But, there are some differences with generics, example below does not compile.
 // (id cannot be generalised, its type is restricted to first instance of int):
